@@ -17,6 +17,11 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        enforce: 'pre',
+        use: ['source-map-loader'],
+      },
+      {
         test: [/.js$|.ts$/],
         exclude: /(node_modules)/,
         use: {
@@ -62,8 +67,8 @@ module.exports = {
   resolve: {
     alias: {
       '@components': path.resolve(__dirname, '../src/components'),
-      '@scss': path.resolve(__dirname, '../src/scss'),
-      '@img': path.resolve(__dirname, '../src/img'),
+      '@scss': path.resolve(__dirname, '../src/assets/scss'),
+      '@img': path.resolve(__dirname, '../src/assets/img'),
       '@': path.resolve(__dirname, '../src')
     },
     modules: [
