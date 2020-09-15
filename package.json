@@ -1,0 +1,10 @@
+{
+  "name": "SPA using JS",
+  "version": "1.0.0",
+  "description": "SPA without Framework",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Raj",
+  "license": "ISC"
+}
