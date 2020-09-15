@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/app',
@@ -13,5 +14,17 @@ module.exports = {
       path.resolve(__dirname, 'src')
     ],
     extensions: ['.js'],
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'Setting up webpack',
+      template: 'index.html',
+      inject: true,
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      },
+    })
+  ]
+
 }
