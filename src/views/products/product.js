@@ -1,11 +1,8 @@
-export default class Dashboard {
-    constructor(params) {
-       //  super(params);
-      //   this.setTitle("Dashboard");
-    }
+import { html } from "lit-html";
 
-    async getHtml() {
-        return `
+export default class Product {
+    getHtml() {
+        return html`
             <h1>Welcome back, Dom</h1>
             <p>
                 Fugiat voluptate et nisi Lorem cillum anim sit do eiusmod occaecat irure do. Reprehenderit anim fugiat sint exercitation consequat. Sit anim laborum sit amet Lorem adipisicing ullamco duis. Anim in do magna ea pariatur et.
