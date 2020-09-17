@@ -7,6 +7,7 @@ export default class Header {
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <div class="nav-wrapper">
             <ul class="left hide-on-med-and-down">
+              <li><a href="/"><img src="src/assets/icon/logo.png" /></a></li>
               <li><a href="/" class="nav__link" data-link>HOME</a></li>
               <li><a href="/products" class="nav__link" data-link>SHOP</a></li>
               <li><a href="/magazine" class="nav__link" data-link>MAGAZINE</a></li>
