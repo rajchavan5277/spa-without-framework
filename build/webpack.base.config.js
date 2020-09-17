@@ -69,6 +69,7 @@ module.exports = {
       '@components': path.resolve(__dirname, '../src/components'),
       '@scss': path.resolve(__dirname, '../src/assets/scss'),
       '@img': path.resolve(__dirname, '../src/assets/img'),
+      '@icon': path.resolve(__dirname, '../src/assets/icon'),
       '@': path.resolve(__dirname, '../src')
     },
     modules: [
