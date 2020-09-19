@@ -1,3 +1,21 @@
+@import '@scss/_variables.scss';
 .background-white {
-    background-color : #fff
+    background-color : $background-color;
 }
+.logo{
+    max-width: 50px !important;
+    width: 100%;
+}
+.nav-wrapper ul li a{
+    color: $primary-color;
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: bold;
+ 
+    img {
+       max-width: $font-icon-size;
+       width: 100%;
+       vertical-align: middle;
+    }
+}
+

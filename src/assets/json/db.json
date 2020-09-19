@@ -1,0 +1,113 @@
+{
+  "collections": [
+    {
+      "collections_id": 1,
+      "collections_label" : "Sofas",
+      "collections_name" : "sofas"
+    },
+    {
+      "collections_id": 2,
+      "collections_label" : "Seating",
+      "collections_name" : "seating"
+    },
+    {
+      "collections_id": 3,
+      "label" : "Chairs",
+      "name" : "chairs"
+    },
+    {
+      "collections_id": 4,
+      "collections_label" : "Tables",
+      "collections_name" : "tables"
+    },
+    {
+      "collections_id": 5,
+      "collections_label" : "Beds",
+      "collections_name" : "beds"
+    }
+  ],
+  "category" : [
+    {
+      "category_id": 1,
+      "label" : "Sofa",
+      "name" : "sofas"
+    },
+    {
+      "category_id": 2,
+      "label" : "Sectional Sofas",
+      "name" : "sectional_sofas"
+    },
+    {
+      "category_id": 3,
+      "label" : "Recliners",
+      "name" : "recliners"
+    },
+    {
+      "category_id": 4,
+      "label" : "Futons",
+      "name" : "futons"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Coombes",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 5,
+      "image_url" : "https://via.placeholder.com/300"
+    },
+    {
+      "id": 2,
+      "title": "Keeve Set",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 5,
+      "image_url" : "https://via.placeholder.com/300"
+    },
+    {
+      "id": 3,
+      "title": "Nille",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 2,
+      "image_url" : "https://via.placeholder.com/300"
+    },
+    {
+      "id": 4,
+      "title": "Moomo",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 4,
+      "image_url" : "https://via.placeholder.com/300"
+    },
+    {
+      "id": 5,
+      "title": "panemille",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 5,
+      "image_url" : "https://via.placeholder.com/300"
+    },
+    {
+      "id": 6,
+      "title": "Kappu",
+      "category_id": 1,
+      "label" : "Sofa",
+      "price": "2000",
+      "name" : "sofas",
+      "rating": 5,
+      "image_url" : "https://via.placeholder.com/300"
+    }
+  ]
+}

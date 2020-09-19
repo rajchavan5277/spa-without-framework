@@ -2,8 +2,8 @@ import { render } from 'lit-html';
 import Home from "./views/home/home.js";
 import Magazine from "./views/magazine/magazine.js";
 import ProductSingle from "./views/product-single/product-single.js";
-import Page404 from "./views/404/404";
-import Product from './views/products/product';
+import Page404 from "./views/404/404.js";
+import Product from './views/products/products.js';
 
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
@@ -52,6 +52,8 @@ const router = async () => {
   } else {
     render(view.getHtml(), document.querySelector("#app"));
   }
+
+  // Automaterializecss
 };
 
 window.addEventListener("popstate", router);
@@ -66,3 +68,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   router();
 });
+

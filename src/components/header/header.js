@@ -1,13 +1,14 @@
-import { html, render } from 'lit-html';
+import { LitElement, html, css  } from 'lit-element';
 import './header.scss';
-export default class Header {
-    static getView() {
-        return html`
+export default class Header extends LitElement{
+  render() {
+    return html`
+        <header>
         <nav class="background-white">
           <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <div class="nav-wrapper">
             <ul class="left hide-on-med-and-down">
-              <li><a href="/"><img src="src/assets/icon/logo.png" /></a></li>
+              <li><a href="/"><img src="src/assets/icon/logo.png" class="logo"/></a></li>
               <li><a href="/" class="nav__link" data-link>HOME</a></li>
               <li><a href="/products" class="nav__link" data-link>SHOP</a></li>
               <li><a href="/magazine" class="nav__link" data-link>MAGAZINE</a></li>
@@ -21,7 +22,11 @@ export default class Header {
               <li><a href="#">LOGIN</a></li>
             </ul>
           </div>
-        </nav>`;
-    }
+        </nav>
+        </header>`;
+  }
+  createRenderRoot() {
+    return this;
+  }
 }
-render(Header.getView(), document.querySelector("#app-header"));
+customElements.define('app-header', Header);
