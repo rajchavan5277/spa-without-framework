@@ -184,11 +184,10 @@ export default class Shop extends LitElement {
   <div class="row pagination-wrapper">
    <div class="col s12">
       <ul class="pagination">
-        ${Array( Math.round(products.length / this.pageLimit)).fill().map((i, index) => {
-            return html`<li class="active"><a href="javascript:void(0)" @click="${()=> this.changeFilter(index + 1, this.pageLimit)}" >${index + 1}</a></li>`
-          })
-        }
-        <li class="waves-effect"><a href="javascript:void(0)"><i class="material-icons">chevron_right</i></a></li>
+      <li class="active"><a href="javascript:void(0)" @click="${()=> this.changeFilter(1, this.pageLimit)}" >${1}</a></li>
+      <li ><a href="javascript:void(0)" @click="${()=> this.changeFilter(2, this.pageLimit)}" >${2}</a></li>
+      <li ><a href="javascript:void(0)" @click="${()=> this.changeFilter(3, this.pageLimit)}" >${3}</a></li>
+      <li class="waves-effect"><a href="javascript:void(0)"><i class="material-icons">chevron_right</i></a></li> 
       </ul>
    </div>
   </div>
