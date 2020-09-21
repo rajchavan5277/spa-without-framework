@@ -33,6 +33,8 @@ export default class Product extends LitElement {
       res.assets[0].selected  = true;
       this.images = res.assets[0]; // intial first element
       this.productData = res;
+      console.log(this.productData);
+      console.log(res);
       let elems = document.querySelectorAll('.slider');
       M.Slider.init(elems, { interval: 900000, height: 500 });
       M.AutoInit();

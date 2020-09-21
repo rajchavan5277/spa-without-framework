@@ -8,6 +8,7 @@ import './components/sidebar/sidebar.js'
 import './components/header/header.js';
 import './views/home/home.js';
 import './views/shop/shop.js';
+import './views/404/Page404.js'
 import './views/product/product.js';
 import './assets/scss/index.scss';
 
@@ -31,7 +32,7 @@ class App extends LitElement {
       { path: '/', component: 'app-home' },
       { path: '/shop', component: 'app-shop' },
       { path: '/product/:id', component: 'app-product' },
-      { path: '(.*)', component: 'app-shop' }
+      { path: '(.*)', component: 'page-not-found' }
     ]);
   }
 

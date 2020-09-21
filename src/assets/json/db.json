@@ -246,17 +246,58 @@
       ]
     },
     {
-      "id": 4,
-      "title": "LAURA Set2 SOFA",
+      "id": 5,
+      "title": "LAURA Set4 SOFA",
       "label": "Sofa",
-      "price": "5000",
-      "category_id": 2,
-      "category_label": "Sofa",
-      "category_name": "sofas",
+      "price": "8000",
+      "category_id": 3,
+      "category_label": "Storage",
+      "category_name": "storage",
       "collections_id": 2,
       "color_id": 2,
       "color_name": "black",
       "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_3.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "LAURA SOFA",
+      "label": "Sofa",
+      "price": "5000",
+      "category_id": 5,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 1,
+      "color_name": "red",
+      "color_label": "Red",
       "collections_label": "Living",
       "collections_name": "living",
       "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
@@ -287,8 +328,8 @@
       ]
     },
     {
-      "id": 4,
-      "title": "LAURA Set2 SOFA",
+      "id": 7,
+      "title": "LAURA 2 SOFA",
       "label": "Sofa",
       "price": "5000",
       "category_id": 2,
@@ -326,10 +367,10 @@
           ]
         }
       ]
-    },
+    },  
     {
-      "id": 4,
-      "title": "LAURA Set2 SOFA",
+      "id": 8,
+      "title": "LAURA SOFA",
       "label": "Sofa",
       "price": "5000",
       "category_id": 2,
@@ -367,11 +408,12 @@
           ]
         }
       ]
-    },  {
-      "id": 4,
-      "title": "LAURA Set2 SOFA",
+    }, 
+    {
+      "id": 8,
+      "title": "CEPELLA SOFA",
       "label": "Sofa",
-      "price": "5000",
+      "price": "10000",
       "category_id": 2,
       "category_label": "Sofa",
       "category_name": "sofas",
@@ -383,7 +425,7 @@
       "collections_name": "living",
       "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
       "rating": 2,
-      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "cover_image": "src/assets/img/sofa-singl-11.jpg",
       "assets": [
         {
           "color_id": "1",
@@ -391,9 +433,9 @@
           "color_name": "TAUPE-B-657",
           "color_code": "black",
           "image_path": [
-            "src/assets/img/living_sofa_1.webp",
-            "src/assets/img/living_sofa_2.webp",
-            "src/assets/img/living_sofa_3.webp"
+            "src/assets/img/sofa-singl-11.jpg",
+            "src/assets/img/sofa-singl-12.jpg",
+            "src/assets/img/sofa-singl-13.jpg"
           ]
         },
         {
@@ -402,8 +444,8 @@
           "color_name": "TAUPE-B-657",
           "color_code": "grey",
           "image_path": [
-            "src/assets/img/living_sofa_4.webp",
-            "src/assets/img/living_sofa_5.webp"
+            "src/assets/img/sofa-singl-14.jpg",
+            "src/assets/img/sofa-singl-15.jpg"
           ]
         }
       ]
