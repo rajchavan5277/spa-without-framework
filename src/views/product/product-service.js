@@ -1,10 +1,10 @@
 import { enviroment } from '../../../enviroment';
 import { ajax } from '../../helpers/fetch-api.js';
 
-export default class HomeService {
+export default class ProductService {
     constructor() { }
 
-    getCollections() {
-        return ajax(enviroment.url + 'collections', {}, 'GET');
+    getProduct(id) {
+        return ajax(enviroment.url + `products/${id}`, {}, 'GET');
     }
 }
