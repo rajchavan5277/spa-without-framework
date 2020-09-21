@@ -1,0 +1,39 @@
+@import '../../assets/scss//variables';
+.product-link {
+    display: inline-block;
+}
+.product-title {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.product-category {
+    font-size: 13px;
+    margin-top: 5px;
+    color: $muted-font-color;
+}
+.product-footer {
+    position: relative;
+    height: 20px;
+    top: -31px;
+    
+    .buy{
+        text-align: right;
+    }
+    .buy img {
+        width: 22px;
+    }
+}
+.filter-text {
+    font-size: 10px;
+    font-weight: bold;
+    color: $muted-font-color;
+    padding-left: 11px;
+    margin-bottom: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+

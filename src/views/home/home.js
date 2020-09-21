@@ -1,124 +1,82 @@
-import { LitElement, html, css  } from 'lit-element';
+import { LitElement, html } from 'lit-element';
 import HomeService from './home-service';
-import './home.scss';
-import 'materialize-css/dist/css/materialize.min.css';
+import "./home.scss";
 
-export default class Home extends LitElement{
-  homeService = new HomeService();
+export default class Home extends LitElement {
   constructor() {
     super();
-    this.getProducts();
-    this.getCollections();
   }
   static get properties() {
     return {
-      collections: { type: Array },
-      products: {type: Array }
+      product: Array,
+      instance: Object,
+      location: Object
     };
-  }
-  static get styles() {
-    return css``;
   }
   createRenderRoot() {
     return this;
   }
-  getProducts() {
-    this.homeService.getProducts().then(res => {
-      console.log(res);
-      this.products = res;
-    })
+
+  firstUpdated() {
+    M.AutoInit();
+    let elems = document.querySelectorAll('.slider');
+    M.Slider.init(elems, { interval: 900000, height: 500 });
+    console.log(this.location.params.id);
   }
 
-  getCollections() {
-    this.homeService.getCollections().then(res => {
-      console.log(res);
-      this.collections = res;
-    })
-  }
 
   render() {
     return html`
-    <div class="mui-row">
-    <div class="mui-col-md-3">
-       <aside>
-          <p>FILTER BY</p>
-          <div>
-             <form class="mui-col-md-12">
-                <div class="row">
-                <div class="mui-col-md-12">
-                  <div class="mui-select">
-                    <select>
-                      ${ this.collections.map(item => {
-                          return html`<option value="${item.collections_name}">${item.collections_label}</option>`
-                        })
-                      }
-                    </select>
-                    <label>collection</label>
-                  </div>
-                </div>
-                <div class="mui-col-md-12">
-                  <div class="mui-select">
-                    <select>
-                      ${ this.collections.map(item => {
-                          return html`<option value="${item.collections_name}">${item.collections_label}</option>`
-                        })
-                      }
-                    </select>
-                    <label>Color</label>
-                  </div>
-                </div>
-                <div class="mui-col-md-12">
-                <div class="mui-select">
-                  <select>
-                    ${ this.collections.map(item => {
-                        return html`<option value="${item.collections_name}">${item.collections_label}</option>`
-                      })
-                    }
-                  </select>
-                  <label>Category</label>
-                </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+        <div class="slider">
+        <ul class="slides">
+            <li>
+              <img src="../src/assets/img/furniture/sofa.webp" class="slider-image">
+            </li>
+            <li>
+              <img src="https://lorempixel.com/580/250/nature/2">
+            </li>
+            <li>
+              <img src="https://lorempixel.com/580/250/nature/3">
+            </li>
+            <li>
+              <img src="https://lorempixel.com/580/250/nature/4">
+            </li>
+          </ul>
+        </div>
+        </div>
+        <div class="col s6">
+          <p>Kappu Regular chari</p>
+          <h1>Scandanavian Collection</h1>
+          <p>Vass Shoe makes handcrafted men's shoes in the 
+           heart of Budapest. I made a concept product page 
+           for practise. which in my opinions represent their qualities better 
+           than their current site.
+          </p>
+          <div class="color-wrapper">
+            <p>Color</p>
+            <div>
+              <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">add</i></a>
+              <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+          </div>
+          <div class="price-wrapper">
+            <p>Price per Unit</p>
+            <div>
+              <div class="">
+                <span>$2600</span>
+                <a class="waves-effect waves-light btn">button</a>
+                <img src="../../src/assets/icon/shopping-cart.png" />
               </div>
-                <div class="mui-col-md-12">
-                    <label for="collection">Price Range</label>
-                    <p class="range-field">
-                      <input type="range" id="test5" min="0" max="100" />
-                    </p>
-                  </div>
-                </div>
-             </form>
+            </div>
           </div>
-       </aside>
+        </div>
+        
+      </div>
     </div>
-    <div class="mui-col-md-9">
-       <main>
-      ${ this.products.map(item => {
-       return html`<div class="mui-col-md-4">
-          <div class="image">
-            <img src="${item.image_url}" alt="image" class="product-image"/>
-          </div>
-          <div class="product-wrapper mui-row">
-            <div class="product-content mui-col-md-8">
-              <p class="title">${item.label}</p>
-              <p class="title muted">${item.label} </p>
-            </div>
-            <div class="price mui-col-md-4">
-            ${"$"+item.price}
-            </div>
-          </div>
-          <div class="footer mui-row">
-            <div class="rating mui-col-md-8">
-              ${item.rating}
-            </div>
-            <div class="mui-col-md-4"> 
-              <img src="../../src/assets/icon/shopping-cart.png" />
-            </div>
-          </div>
-        </div>`
-      })
-    }
-  </main>
-    </div>
- </div>`;
+ `;
   }
 }
 customElements.define('app-home', Home);

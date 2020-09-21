@@ -1,113 +1,208 @@
 {
-  "collections": [
-    {
-      "collections_id": 1,
-      "collections_label" : "Sofas",
-      "collections_name" : "sofas"
+  "filterData": {
+    "price_range": {
+      "min": 1000,
+      "max": 13000
     },
-    {
-      "collections_id": 2,
-      "collections_label" : "Seating",
-      "collections_name" : "seating"
-    },
-    {
-      "collections_id": 3,
-      "label" : "Chairs",
-      "name" : "chairs"
-    },
-    {
-      "collections_id": 4,
-      "collections_label" : "Tables",
-      "collections_name" : "tables"
-    },
-    {
-      "collections_id": 5,
-      "collections_label" : "Beds",
-      "collections_name" : "beds"
-    }
-  ],
-  "category" : [
-    {
-      "category_id": 1,
-      "label" : "Sofa",
-      "name" : "sofas"
-    },
-    {
-      "category_id": 2,
-      "label" : "Sectional Sofas",
-      "name" : "sectional_sofas"
-    },
-    {
-      "category_id": 3,
-      "label" : "Recliners",
-      "name" : "recliners"
-    },
-    {
-      "category_id": 4,
-      "label" : "Futons",
-      "name" : "futons"
-    }
-  ],
+    "collections": [
+      {
+        "id": 1,
+        "collections_label": "Living Room",
+        "collections_name": "living_room"
+      },
+      {
+        "id": 2,
+        "collections_label": "Bedroom",
+        "collections_name": "bedroom"
+      },
+      {
+        "id": 3,
+        "collections_label": "Dining Room",
+        "collections_name": "dining_room"
+      },
+      {
+        "id": 4,
+        "collections_label": "Office",
+        "collections_name": "office"
+      },
+      {
+        "id": 5,
+        "collections_label": "Beds",
+        "collections_name": "beds"
+      }
+    ],
+    "colors": [
+      {
+        "color_id": 1,
+        "color_name": "red",
+        "color_label": "Red"
+      },
+      {
+        "color_id": 2,
+        "color_name": "black",
+        "color_label": "Black"
+      },
+      {
+        "color_id": 3,
+        "color_name": "white",
+        "color_label": "White"
+      },
+      {
+        "color_id": 4,
+        "color_name": "grey",
+        "color_label": "Grey"
+      }
+    ],
+    "category": [
+      {
+        "category_id": 1,
+        "category_label": "Sofa",
+        "category_name": "sofas"
+      },
+      {
+        "category_id": 2,
+        "category_label": "Table and Chair",
+        "category_name": "table_and_chair"
+      },
+      {
+        "category_category_id": 3,
+        "category_label": "Storage",
+        "category_name": "storage"
+      },
+      {
+        "category_category_id": 4,
+        "category_label": "Beds",
+        "category_name": "beds"
+      },
+      {
+        "category_category_id": 4,
+        "category_label": "Dinning Table",
+        "category_name": "dinnning_table"
+      }
+    ]
+  },
   "products": [
     {
       "id": 1,
-      "title": "Coombes",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
-      "rating": 5,
-      "image_url" : "https://via.placeholder.com/300"
+      "title": "LAURA SOFA",
+      "label": "Sofa",
+      "price": "1000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Keeve Set",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
-      "rating": 5,
-      "image_url" : "https://via.placeholder.com/300"
-    },
-    {
-      "id": 3,
-      "title": "Nille",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
+      "title": "LAURA SOFA",
+      "label": "Sofa",
+      "price": "1000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
       "rating": 2,
-      "image_url" : "https://via.placeholder.com/300"
-    },
-    {
-      "id": 4,
-      "title": "Moomo",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
-      "rating": 4,
-      "image_url" : "https://via.placeholder.com/300"
-    },
-    {
-      "id": 5,
-      "title": "panemille",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
-      "rating": 5,
-      "image_url" : "https://via.placeholder.com/300"
-    },
-    {
-      "id": 6,
-      "title": "Kappu",
-      "category_id": 1,
-      "label" : "Sofa",
-      "price": "2000",
-      "name" : "sofas",
-      "rating": 5,
-      "image_url" : "https://via.placeholder.com/300"
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },{
+      "id": 3,
+      "title": "LAURA SOFA",
+      "label": "Sofa",
+      "price": "1000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
     }
   ]
 }

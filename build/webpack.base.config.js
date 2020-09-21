@@ -5,14 +5,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 module.exports = {
   entry: './src/app',
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'app.[contenthash:8].js',
     publicPath: '/'
-  },
-  devServer: {
-    historyApiFallback:{
-      index:'index.html'
-    },
   },
   module: {
     rules: [

@@ -5,6 +5,7 @@ import ProductSingle from "./views/product-single/product-single.js";
 import Page404 from "./views/404/404.js";
 import Product from './views/products/products.js';
 
+/*Core JS router only for reference purpose*/
 
 const pathToRegex = path => new RegExp("^" + path.replace(/\//g, "\\/").replace(/:\w+/g, "(.+)") + "$");
 
