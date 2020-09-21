@@ -108,7 +108,7 @@ export default class Shop extends LitElement {
                 </div>
                 <div class="col s12">
                   <div class="input-field margin-top-0">
-                    <select id="select-color" @click="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}">
+                    <select id="select-color" @change="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}">
                     <option value="" disabled selected>Choose your color</option>
                       ${ commandata.colors.map(item => {
                         return html`<option value="${item.color_id}">${item.color_label}</option>`
@@ -120,7 +120,7 @@ export default class Shop extends LitElement {
                 </div>
                 <div class="col s12">
                 <div class="">
-                  <select id="select-categroy" @click="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}">
+                  <select id="select-categroy" @change="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}">
                     <option value="" disabled selected>Choose your category</option>
                     ${ commandata.category.map(item => {
                       return html`<option class="grey text-darken-4" value="${item.category_id}">${item.category_label}</option>`
@@ -133,7 +133,7 @@ export default class Shop extends LitElement {
                 <div class="col s12 margin-top">
                     <label for="collection" class="price-label">Price Range</label>
                     <p class="range-field">
-                      <input type="range" @click="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}" id="price" min="${commandata.price_range.min}" max="${commandata.price_range.max}" />
+                      <input type="range" @change="${(e)=> { this.changeFilter(this.pageNo, this.pageLimit)}}" id="price" min="${commandata.price_range.min}" max="${commandata.price_range.max}" />
                       <span class="price-mm">$${commandata.price_range.min}</span> <span class="price-mm right"> $${commandata.price_range.max}+</span>
                     </p>
                   </div>
