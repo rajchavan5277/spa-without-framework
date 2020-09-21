@@ -65,17 +65,17 @@
         "category_name": "table_and_chair"
       },
       {
-        "category_category_id": 3,
+        "category_id": 3,
         "category_label": "Storage",
         "category_name": "storage"
       },
       {
-        "category_category_id": 4,
+        "category_id": 4,
         "category_label": "Beds",
         "category_name": "beds"
       },
       {
-        "category_category_id": 4,
+        "category_id": 4,
         "category_label": "Dinning Table",
         "category_name": "dinnning_table"
       }
