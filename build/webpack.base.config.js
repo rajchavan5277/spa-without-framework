@@ -9,6 +9,9 @@ module.exports = {
     filename: 'app.[contenthash:8].js',
     publicPath: '/'
   },
+  devServer: {
+    historyApiFallback: true
+  },
   module: {
     rules: [
       {

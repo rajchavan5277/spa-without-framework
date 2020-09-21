@@ -35,15 +35,6 @@ export default class Home extends LitElement {
             <li>
               <img src="../src/assets/img/furniture/sofa.webp" class="slider-image">
             </li>
-            <li>
-              <img src="https://lorempixel.com/580/250/nature/2">
-            </li>
-            <li>
-              <img src="https://lorempixel.com/580/250/nature/3">
-            </li>
-            <li>
-              <img src="https://lorempixel.com/580/250/nature/4">
-            </li>
           </ul>
         </div>
         </div>
@@ -55,20 +46,13 @@ export default class Home extends LitElement {
            for practise. which in my opinions represent their qualities better 
            than their current site.
           </p>
-          <div class="color-wrapper">
-            <p>Color</p>
-            <div>
-              <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">add</i></a>
-              <a class="btn-floating btn-small waves-effect waves-light red"><i class="material-icons">add</i></a>
-            </div>
-          </div>
+          
           <div class="price-wrapper">
             <p>Price per Unit</p>
             <div>
-              <div class="">
-                <span>$2600</span>
-                <a class="waves-effect waves-light btn">button</a>
-                <img src="../../src/assets/icon/shopping-cart.png" />
+              <div class="margin-top-20">
+                <span class="margin-left-20">$2600</span>
+                <a class="waves-effect waves-light btn black">Buy Now</a>
               </div>
             </div>
           </div>

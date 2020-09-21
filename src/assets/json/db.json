@@ -127,7 +127,7 @@
       "id": 2,
       "title": "LAURA SOFA",
       "label": "Sofa",
-      "price": "1000",
+      "price": "3000",
       "category_id": 2,
       "category_label": "Sofa",
       "category_name": "sofas",
@@ -165,9 +165,213 @@
       ]
     },{
       "id": 3,
-      "title": "LAURA SOFA",
+      "title": "LAURA Set2 SOFA",
       "label": "Sofa",
-      "price": "1000",
+      "price": "5000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "LAURA Set2 SOFA",
+      "label": "Sofa",
+      "price": "5000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "LAURA Set2 SOFA",
+      "label": "Sofa",
+      "price": "5000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "LAURA Set2 SOFA",
+      "label": "Sofa",
+      "price": "5000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "LAURA Set2 SOFA",
+      "label": "Sofa",
+      "price": "5000",
+      "category_id": 2,
+      "category_label": "Sofa",
+      "category_name": "sofas",
+      "collections_id": 2,
+      "color_id": 2,
+      "color_name": "black",
+      "color_label": "Black",
+      "collections_label": "Living",
+      "collections_name": "living",
+      "description": "Vass Shoe makes handcrafted mens shoes in the heart of Budapest. I made a concept product page for practise. which in my opinions represent their qualities better than their current site.",
+      "rating": 2,
+      "cover_image": "src/assets/img/living_sofa_2.webp",
+      "assets": [
+        {
+          "color_id": "1",
+          "color_label": "GREY B-641",
+          "color_name": "TAUPE-B-657",
+          "color_code": "black",
+          "image_path": [
+            "src/assets/img/living_sofa_1.webp",
+            "src/assets/img/living_sofa_2.webp",
+            "src/assets/img/living_sofa_3.webp"
+          ]
+        },
+        {
+          "color_id": "2",
+          "color_label": "TAUPE B-657",
+          "color_name": "TAUPE-B-657",
+          "color_code": "grey",
+          "image_path": [
+            "src/assets/img/living_sofa_4.webp",
+            "src/assets/img/living_sofa_5.webp"
+          ]
+        }
+      ]
+    },  {
+      "id": 4,
+      "title": "LAURA Set2 SOFA",
+      "label": "Sofa",
+      "price": "5000",
       "category_id": 2,
       "category_label": "Sofa",
       "category_name": "sofas",

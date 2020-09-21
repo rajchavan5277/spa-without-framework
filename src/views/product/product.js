@@ -89,7 +89,7 @@ export default class Product extends LitElement {
             <div>
               ${
                 productData.assets.map( item => {
-                  return html`<a  @click=${() => {this.colorChange(item)}} class="btn-floating btn-small waves-effect waves-light ${item.color_code}"><i class="material-icons">${item.selected ? "done" : ""}</i></a>`
+                  return html`<a  @click=${() => {this.colorChange(item)}} class="product btn-floating btn-small waves-effect waves-light ${item.color_code}"><i class="material-icons">${item.selected ? "done" : ""}</i></a>`
                 })
               }
             </div>
