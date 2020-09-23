@@ -24,4 +24,6 @@ This is simple SPA application in ES6 without any framework
 
 # Local Server :
 npm run dev
+
+# start json server
 json-server --watch db.json 
